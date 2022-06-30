@@ -1,0 +1,169 @@
+.hero-image-about  {
+    background-image: url("../images/Hero\ Image\ 2.png");
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text-about {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: smaller;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: row;
+}
+
+.container-left {
+    background-color: #F4F6F4;
+    height: 500px;
+    width: 60vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-text {
+    text-align: left;
+    width: 400px;
+    color: #31515e;
+    font-weight:900;
+    margin-left: 200px;
+}
+
+.container-right {
+    background-color: #8eabc6;
+    height: 500px;
+    width: 40vw;
+}
+
+.about-pic {
+    z-index: 5;
+    position: absolute;
+    top: 54.3rem;
+    left: 50rem;
+}
+
+
+/*second section*/
+.container-left-two {
+    background-color: #929c94;
+    height: 500px;
+    width: 40vw;
+}
+
+.about-text-two {
+    text-align: left;
+    width: 400px;
+    color: #31515e;
+    font-weight:900;
+    margin-right: 200px;
+}
+
+.container-right-two {
+    background-color: #F4F6F4;
+    height: 500px;
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-pic-two {
+    z-index: 5;
+    position: absolute;
+    top: 85.5rem;
+    left: 27.5rem;
+    
+}
+
+
+
+.about-text-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.about-large {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+hr {
+    width: 150px;
+    border-color: #31515e;
+    margin-bottom: 10px;
+}
+    
+.about-text-bottom {
+    color: #31515e;
+    font-weight: 400;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.hero-image-stones  {
+    background-image: url("../images/Sandstones\ CROP.png");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+
+#breathein {
+    color: #F4F6F4;
+    transition: all 4s ease;
+}
+
+#breathein:hover {
+    font-size: 3em;
+}
+
+.about-list {
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-list-ul {
+    width: 400px;
+    list-style-type: none;
+    padding: 60px 60px 0px 60px;
+    margin-bottom: 0;
+    font-size: 1.05rem;
+}
+
+.about-list-item {
+    padding-bottom: 60px;
+    text-align:left;
+    line-height: 1.6;
+}
+
+.about-text-bottom-2 {
+    color: #31515e;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}

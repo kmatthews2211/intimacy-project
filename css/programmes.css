@@ -1,0 +1,392 @@
+body {
+    background-color: #F4F6F4;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Manjari', sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    z-index: 999;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.homelogo {
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-580px);
+    padding-top:0em;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none; 
+    height: 60px;  
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 150;
+    padding: 30px 30px 20px; 
+    color: #31515e;
+    height: 100%;
+}
+
+.navbar-links:hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: underline;
+  }
+
+h1 {
+    font-weight: 400;
+    font-size: 4em;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #F4F6F4;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-weight: 100;
+    color: #31515e;
+}
+
+
+h3 {
+    font-weight: 100;
+    font-size: 2.25em;
+    color: #31515e; 
+    
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 2.25em;
+    color: white; 
+    margin-left: 5em;
+    /* background-color: blue; */
+}
+
+h5 {
+    font-weight: 100;
+    font-size: 1.5em;
+    color: white; 
+    /* background-color: blue; */
+}
+
+h6 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2em;
+    color: #31515e; 
+    /* background-color: blue; */
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #31515e;
+    /* background-color: red; */
+}
+
+.pink-button {
+    background-color: #c79a99;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+}
+
+.pink-button:hover {
+    cursor: pointer;
+}
+
+.white-button {
+    background-color: #F4F6F4;
+    border: none;
+    border-radius: 0.4rem;
+    color: #31515e;
+    padding: 10px 32px;
+    margin-top:20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bolder;
+}
+
+
+.white-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.white-button a:link {
+    color: #31515e;
+    text-decoration: none;
+}
+
+.white-button a:visited {
+    color: #31515e;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/*MENTORSHIP*/
+.hero-image-mentorship {
+    background-image: url("../images/sunsetyoga-hi-res-transparent.png");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*IMMERSION*/
+.hero-image-immersion {
+    background-image: url("../images/treepose-transparent-crop.png");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hero-text-programmes {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: smaller;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.para1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.para1-text {
+    margin: 30px 70px 20px 120px;
+    width: 500px;
+    color:#31515e;
+}
+
+.image-1 {
+    margin-top: 50px;
+    margin-right: 80px;
+} 
+
+.para2-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para2-text {
+    margin: 30px 70px 30px 120px;
+    width: 800px;
+    color:#31515e;
+}
+
+.image-2 {
+    padding-left: 80px;
+}
+
+
+
+.expect-container {
+    width: 100%;
+    background-color: #c79a99;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.expect-list {
+    color: #F4F6F4;
+    font-size: large;
+    line-height: 3em;
+    list-style-type: circle;
+    padding-left: 15em; 
+    padding-right: 10em;
+}
+
+.offer-container {
+    width: 100%;
+    background-color: #F4F6F4;
+}
+
+.offer-text {
+    /* background-color:pink; */
+    color: #31515e;
+    width: 750px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+
+.gallery-container {
+    margin-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.gallery-item {
+    padding: 20px;
+}
+
+.link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.description {
+    /* background-color: pink; */
+    text-align: center;
+}
+
+
+
+/*TESTIMONIALS*/
+
+.testimonial-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.testimonial-item {
+    width: 350px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 0.95em;
+    font-style: italic;
+}
+
+.button {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.to-top-button {
+    background-color: #F4F6F4;
+    border: none;
+    color: #c79a99;
+    border-radius: 0.4rem;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+   justify-items: center;
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+}
+
+.to-top-button:hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: underline;
+  }
+
+.footer-container {
+    background-color: #31515e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    z-index: 0;
+}
+
+
+.navigation-list-end {
+    list-style-type: none;
+    display: flex;
+    padding: 50px 50px 0px;
+    align-items: center;
+    z-index: 10;
+}
+
+
+.navbar-links-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 150;
+    padding: 30px 30px 20px; 
+    color: #F4F6F4;
+    height: 100%;
+}
+
+.navigation-links-two:hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: underline;
+    text-decoration: solid;
+    color: #F4F6F4;
+  }
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .copyright {
+      color: white;
+      margin-top: -10px;
+  }
