@@ -155,7 +155,7 @@ p {
 
 
 /*WELLNESS*/
-.hero-image-wellbeing {
+.hero-image-wellness {
     background-image: url("../images/group-transparent.png");
     background-size: cover;
     height: 500px;
@@ -293,15 +293,21 @@ p {
 
 /*PRACTICE VIDEOS*/
 
+.practice-text-container {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
 .top-text {
     font-weight: 400;
+    width: 600px;
 }
 
 .video-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-evenly;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -309,6 +315,11 @@ p {
 .video-text {
     text-align: center;
     font-size: small;
+}
+
+.video-card {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .row2 {
@@ -364,6 +375,8 @@ p {
     cursor: pointer;
     transition: 0.3s ease;
     text-decoration: underline;
+    background-color: #929c94;
+    color: white;
   }
 
   .footer-container {
@@ -383,13 +396,11 @@ p {
     align-items: center;
 }
 
-
 .navbar-links-two {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    text-decoration: none;
     font-weight: 150;
     padding: 30px 30px 20px; 
     color: #F4F6F4;
@@ -401,7 +412,6 @@ p {
     cursor: pointer;
     transition: 0.3s ease;
     text-decoration: underline;
-    color: #F4F6F4;
   }
 
 

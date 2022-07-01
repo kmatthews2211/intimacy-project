@@ -1,0 +1,93 @@
+.hero-text-contact {
+    text-align: center;
+    color: white;
+}
+
+.hero-image-contact  {
+    background-image: url("../images/SandStones.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #f4f6f4;
+    color: #f4f4f4;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #f4f4f4;
+    font-weight: 400;
+    cursor: text;
+    transition: 0.2s;
+}
+
+
+.submit-button {
+    background-color: #F4F6F4;
+    border: none;
+    width: 104%;
+    padding: 10px 0;
+    color: #31515e;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+
+.submit-button:hover {
+    text-decoration: underline;
+}
+
+input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group {
+    flex-basis: 44%;
+}
+
+select {
+    background-color: rgba(244,244,244, 0.7);
+    border: none;
+    outline: none;
+    margin-left: 35px;
+    font-family: "Manjari";
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px 0;
+}

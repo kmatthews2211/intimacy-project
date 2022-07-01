@@ -20,6 +20,7 @@
 }
 
 
+
 .about-container {
     display: flex;
     justify-content: row;
@@ -34,11 +35,11 @@
     align-items: center;
 }
 
-.about-text {
+.about-text p {
     text-align: left;
     width: 400px;
     color: #31515e;
-    font-weight:900;
+    font-weight:400;
     margin-left: 200px;
 }
 

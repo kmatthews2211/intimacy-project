@@ -339,6 +339,8 @@ p {
     cursor: pointer;
     transition: 0.3s ease;
     text-decoration: underline;
+    background-color: #929c94;
+    color: white;
   }
 
 .footer-container {
