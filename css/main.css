@@ -21,6 +21,8 @@ body {
     margin: 0 auto;
     font-size: 1.2em;
     overflow: hidden;
+    background-color: #F4F6F4;
+    position: fixed;
 }
 
 /* .homelogo {
@@ -154,7 +156,8 @@ h1 {
     font-weight: 100;
     font-size: 4em;
     font-family: 'Julius Sans One', sans-serif;
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: red;
 }
 
 h2 {
@@ -198,8 +201,8 @@ h6 {
 }
 
 p {
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 1.1rem;
     line-height: 1.5;
     /* background-color: red; */
 }
@@ -222,14 +225,23 @@ p {
 }
 
 .what-is-text {
-    width: 40rem; 
+    width: 35em; 
     color:#31515e;
     padding: 2em;
 }
 
-
 .mountains-image {
     padding: 2em;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .what-is-text {
+        width: 20em;
+    }
 }
 
 
@@ -261,19 +273,6 @@ p {
     text-decoration: none;
 }
 
-@media screen and (max-width: 415px) {
-    .gallery-container {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 415px) {
-    .testimonial-container {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 
 
@@ -286,13 +285,64 @@ p {
 
 .offer-text {
     color: white;
-    width: 750px;
+    width: 70vw;
     text-align: center;
     margin: auto;
     padding-top: 20px;
-    
 }
 
+
+
+.gallery-container {
+    /* background-color: pink; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1007px) {
+    .gallery-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+.gallery-item {
+    padding: 20px;
+}
+
+.link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.description {
+    /* background-color: pink; */
+    text-align: center;
+}
+
+/*BREATHE SECTION*/
+
+.breathe {
+    background-color: #F4F6F4;
+    color:#31515e;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+.breathe-text {
+    /* background-color: red; */
+    font-size: 5vh;
+}
+
+
+#Krishnamacharya {
+    /* background-color: pink; */
+    padding-bottom: 20px;
+}
 
 .button {
     /* background-color: pink; */
@@ -314,53 +364,25 @@ p {
     font-weight: bolder;
 }
 
+.anna-sunset {
+    max-height: 100%;
+}
 
 .white-button:hover {
     cursor: pointer;
 }
 
-
-.gallery-container {
-    margin-top: 50px;
+.testimonial-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
 }
 
-.gallery-item {
-    padding: 20px;
-}
-
-.link:hover {
-    cursor: pointer;
-    opacity: 0.6;
-}
-
-.description {
-    /* background-color: pink; */
-    text-align: center;
-}
-
-.breathe {
-    background-color: #F4F6F4;
-    color:#31515e;
-    text-align: center;
-    margin-bottom: 50px;
-    max-width: 100%;
-}
-
-#Krishnamacharya {
-    /* background-color: pink; */
-    padding-bottom: 20px;
-}
-
-
-.testimonial-slider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
+@media screen and (max-width: 1007px) {
+    .testimonial-container {
+        flex-wrap: wrap;
+    }
 }
 
 .testimonial-item {
