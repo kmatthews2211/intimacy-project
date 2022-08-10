@@ -24,6 +24,8 @@
 .about-container {
     display: flex;
     justify-content: row;
+    /* border: solid;
+    border-color: red; */
 }
 
 .container-left {
@@ -52,7 +54,7 @@
 .about-pic {
     z-index: 5;
     position: absolute;
-    top: 54.3rem;
+    top: 50.5rem;
     left: 50rem;
 }
 
