@@ -22,7 +22,7 @@ body {
     font-size: 1.2em;
     overflow: hidden;
     background-color: #F4F6F4;
-    /* position: fixed; */
+    position: fixed;
 }
 
 /* .homelogo {
@@ -45,7 +45,7 @@ body {
     overflow: hidden; 
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 768px) {
     .navbar-menu {
         display: none;
     }
@@ -105,6 +105,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    position: fixed;
   }
 
 .dropdown-content a {
@@ -157,7 +158,7 @@ h1 {
     font-size: 4em;
     font-family: 'Julius Sans One', sans-serif;
     /* color: rgba(255, 255, 255, 0.8); */
-    color: yellow;
+    color: blue;
 }
 
 h2 {
@@ -216,7 +217,7 @@ p {
     padding: 4rem;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 768px) {
     .what-is-container {
         display: flex;
         flex-direction: column;
@@ -239,7 +240,7 @@ p {
     height: auto;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .what-is-text {
         width: 20em;
     }
@@ -303,7 +304,7 @@ p {
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 1024px) {
     .gallery-container {
         flex-wrap: wrap;
     }
@@ -365,7 +366,7 @@ p {
     height: auto;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .anna-sunset {
         width: 75vw;
     }
@@ -383,7 +384,7 @@ p {
     padding: 2em;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 1024px) {
     .testimonial-container {
         flex-wrap: wrap;
     }
@@ -393,6 +394,7 @@ p {
 
 .testimonial-item {
     width: 350px;
+    padding: 1.5em;
 }
 
 .title {
@@ -458,19 +460,19 @@ p {
     font-size: 1em;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 769px) {
     .navbar-links-two {
         margin: 1em;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .navbarend {
         display: none;
     }
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 769px) {
     .navbarend-mob {
         display: none;
     }
