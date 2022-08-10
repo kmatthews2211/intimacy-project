@@ -246,12 +246,6 @@ p {
     }
 }
 
-@media screen and (min-width: 769px) {
-    .what-is-text {
-        width: 30em;
-    }
-}
-
 
 .pink-button {
     background-color: #c79a99;
