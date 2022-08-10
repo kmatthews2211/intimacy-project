@@ -22,7 +22,7 @@ body {
     font-size: 1.2em;
     overflow: hidden;
     background-color: #F4F6F4;
-    position: fixed;
+    /* position: fixed; */
 }
 
 /* .homelogo {
@@ -157,7 +157,7 @@ h1 {
     font-size: 4em;
     font-family: 'Julius Sans One', sans-serif;
     /* color: rgba(255, 255, 255, 0.8); */
-    color: blue;
+    color: yellow;
 }
 
 h2 {
@@ -380,6 +380,7 @@ p {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    padding: 2em;
 }
 
 @media screen and (max-width: 1007px) {
@@ -434,6 +435,7 @@ p {
     flex-direction: column;
     align-items: center;
     height: 65vh;
+    width: 100vw;
     z-index: 0;
 }
 
@@ -451,26 +453,47 @@ p {
     /* background-color: black; */
     text-decoration: none;
     font-weight: 150;
-    padding: 2.5em;
+    margin: 2.5em;
     color: #F4F6F4;
+    font-size: 1em;
 }
 
-.navigation-list-end a:hover {
-    cursor: pointer;
-    transition: 0.3s ease;
-    text-decoration: underline;
-    text-decoration: solid;
-    color: #F4F6F4;
-  }
+@media screen and (max-width: 1007px) {
+    .navbar-links-two {
+        margin: 1em;
+    }
+}
 
+@media screen and (max-width: 640px) {
+    .navbarend {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    .navbarend-mob {
+        display: none;
+    }
+}
+
+
+
+
+.link-end:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4em;
 }
   .copyright {
       color: white;
       margin-top: -10px;
+      font-weight:100;
+      font-size: small;
   }
 
