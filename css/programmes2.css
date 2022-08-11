@@ -7,152 +7,6 @@ body {
     font-family: 'Manjari', sans-serif;
 }
 
-.navbar-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 60px;
-    z-index: 999;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 1.2em;
-}
-
-.homelogo {
-    z-index: 10;
-    padding: 0;
-    margin: 0;
-    transform: translateX(-580px);
-    padding-top:0em;
-}
-
-.navbar-menu {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    list-style-type: none; 
-    height: 60px;  
-}
-
-.navbar-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    text-decoration: none;
-    font-weight: 150;
-    padding: 30px 30px 20px; 
-    color: #31515e;
-    height: 100%;
-}
-
-.navbar-links:hover {
-    cursor: pointer;
-    transition: 0.3s ease;
-    text-decoration: underline;
-  }
-
-h1 {
-    font-weight: 400;
-    font-size: 4em;
-    font-family: 'Julius Sans One', sans-serif;
-    color: #F4F6F4;
-}
-
-h2 {
-    font-style: italic;
-    font-weight: bold;
-    font-weight: 100;
-    color: #F4F6F4;
-}
-
-
-h3 {
-    font-weight: 100;
-    font-size: 2.25em;
-    color: #31515e; 
-}
-
-h4 {
-    font-weight: 100;
-    font-size: 2.25em;
-    color: white; 
-    /* background-color: blue; */
-}
-
-h5 {
-    font-weight: 100;
-    font-size: 1.5em;
-    color: white; 
-    /* background-color: blue; */
-}
-
-h6 {
-    font-weight: 100;
-    font-style: italic;
-    font-size: 2em;
-    color: #31515e; 
-    /* background-color: blue; */
-    margin-top: 50px;
-    padding-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-p {
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #31515e;
-    /* background-color: red; */
-}
-
-.pink-button {
-    background-color: #c79a99;
-    border: none;
-    border-radius: 0.4rem;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Manjari', sans-serif;
-}
-
-.pink-button:hover {
-    cursor: pointer;
-}
-
-.white-button {
-    background-color: #F4F6F4;
-    border: none;
-    border-radius: 0.4rem;
-    color: #31515e;
-    padding: 10px 32px;
-    margin-top:20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Manjari', sans-serif;
-    font-weight: bolder;
-}
-
-
-.white-button:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.white-button a:link {
-    color: #31515e;
-    text-decoration: none;
-}
-
-.white-button a:visited {
-    color: #31515e;
-    text-decoration: none;
-}
-
 
 /*WELLNESS*/
 .hero-image-wellness {
@@ -166,6 +20,21 @@ p {
     align-items: center;
 }
 
+.top-container {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #F4F6F4;
+}
+
+.para1-text p {
+    margin: auto;
+    width: 800px;
+    color:#31515e;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
 /*RETREATS*/
 .hero-image-retreats {
     background-image: url("../images/SandStones.png");
@@ -176,6 +45,20 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.retreat-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.retreat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /*PRACTICE*/
@@ -201,34 +84,27 @@ p {
     color: white;
 }
 
-.top-container {
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    background-color: #F4F6F4;
-}
-
-.para1-text p {
-    margin: auto;
-    width: 800px;
-    color:#31515e;
-    padding-bottom: 30px;
-    font-weight: 400;
+.practice-text-container {
+    max-width: 100%;
 }
 
 
-.retreat-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
+@media screen and (max-width: 768px) {
+    .practice-text-container {
+        width: 100vw;
+    }
 }
 
-.retreat-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+@media screen and (max-width: 768px) {
+    .top-text {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video-container {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -242,7 +118,7 @@ p {
 .offer-text {
     /* background-color:pink; */
     color:#F4F6F4;
-    width: 750px;
+    width: 75vw;
     text-align: center;
     margin: auto;
     padding-top: 20px;
@@ -252,6 +128,12 @@ p {
 
 .gallery-container {
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery-container {
+        flex-wrap: wrap;
+    }
 }
 
 .gallery {
@@ -331,101 +213,3 @@ p {
 }
 
 
-
-
-/*TESTIMONIALS*/
-
-.testimonial-slider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-.testimonial-item {
-    width: 350px;
-}
-
-.title {
-    font-weight: bold;
-}
-
-.quote {
-    font-size: 0.95em;
-    font-style: italic;
-}
-
-.button {
-    /* background-color: pink; */
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-.to-top-button {
-    background-color: #F4F6F4;
-    border: none;
-    color: #c79a99;
-    border-radius: 0.4rem;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-   justify-items: center;
-    font-size: 16px;
-    font-family: 'Manjari', sans-serif;
-}
-
-.to-top-button:hover {
-    cursor: pointer;
-    transition: 0.3s ease;
-    text-decoration: underline;
-    background-color: #929c94;
-    color: white;
-  }
-
-  .footer-container {
-    background-color: #31515e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 500px;
-    z-index: 0;
-}
-
-
-.navigation-list-end {
-    list-style-type: none;
-    display: flex;
-    padding: 50px 50px 0px;
-    align-items: center;
-}
-
-.navbar-links-two {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    font-weight: 150;
-    padding: 30px 30px 20px; 
-    color: #F4F6F4;
-    height: 100%;
-}
-
-
-.navigation-links-two:hover {
-    cursor: pointer;
-    transition: 0.3s ease;
-    text-decoration: underline;
-  }
-
-
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.copyright {
-      color: white;
-      margin-top: -10px;
-  }

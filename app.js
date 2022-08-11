@@ -19,27 +19,3 @@ window.onclick = function(event) {
     }
   }
 
-//FORM
-
-// const form  = document.getElementById('messageForm');
-
-// const name = form.elements['name'];
-// const email = form.elements['email'];
-// const subject = form.elements['subject'];
-// const message = form.elements['message'];
-
-// let fullName = name.value;
-// let emailAddress = email.value;
-// let messageSubject = subject.value;
-// let message = message.value;
-
-// form.addEventListener('submit', (event) => {
-//     // handle the form data
-// });
-
-// form.addEventListener('submit', (event) => {
-//     // stop form submission
-//     event.preventDefault();
-// });
-
-// form.submit ();

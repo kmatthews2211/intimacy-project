@@ -12,7 +12,6 @@ body {
 }
 
 
-
 /*NAVBAR*/
 .navbar-container {
     display: flex;
@@ -27,17 +26,6 @@ body {
     background-color: #F4F6F4;
     position: fixed;
 } 
-
-/*.homelogo {
-    z-index: 10;
-    position: fixed;
-    top:0;
-    left:0;
-    padding: 0;
-    margin: 0;
-    transform: translateX(-580px);
-    padding-top:0em;
-} */
 
 .navbar-menu {
     display: flex;
@@ -236,7 +224,7 @@ p {
 }
 
 .mountains-image {
-    padding: 1em;
+    padding: 0.25em;
 }
 .responsive {
     max-width: 100%;
@@ -245,7 +233,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .what-is-text {
-        width: 20em;
+        width: 25em;
     }
 }
 
@@ -347,26 +335,6 @@ p {
     padding-bottom: 20px;
 }
 
-.button {
-    /* background-color: pink; */
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-.white-button {
-    background-color: #F4F6F4;
-    border: none;
-    border-radius: 0.4rem;
-    color: #c79a99;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Manjari', sans-serif;
-    font-weight: bolder;
-}
-
 .anna-sunset {
     max-width: 100%;
     height: auto;
@@ -378,9 +346,43 @@ p {
     }
 }
 
+
+
+.button {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.white-button {
+    background-color: #F4F6F4;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 .white-button:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
+
+.white-button a:link {
+    color: #31515e;
+    text-decoration: none;
+}
+
+.pink-button a:visited {
+    color: #31515e;
+    text-decoration: none;
+}
+
 
 .testimonial-container {
     display: flex;
