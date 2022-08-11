@@ -20,12 +20,11 @@
 }
 
 
-
+/*First section*/
 .about-container {
     display: flex;
+    flex: none;
     justify-content: row;
-    /* border: solid;
-    border-color: red; */
 }
 
 .container-left {
@@ -33,30 +32,110 @@
     height: 500px;
     width: 60vw;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    /* border: solid;
+    border-color: red; */
 }
 
-.about-text p {
+.about-text  {
     text-align: left;
-    width: 400px;
+    max-width: 30vw;
     color: #31515e;
     font-weight:400;
-    margin-left: 200px;
+    margin-left: 10em;
 }
 
 .container-right {
     background-color: #8eabc6;
     height: 500px;
     width: 40vw;
+    display: flex;
+    flex: none;
 }
 
 .about-pic {
-    z-index: 5;
-    position: absolute;
-    top: 50.5rem;
-    left: 50rem;
+    position: relative;
+    top: 15%;
+    left: -30%;
 }
+
+/*divs change to half of viewport*/
+@media screen and (max-width:1024px) {
+    .container-left, .container-right {
+        width: 50vw;
+    }
+}
+
+/*text margin change*/
+@media screen and (max-width:1024px) {
+    .about-text {
+        margin-left: 6em;
+        /* border: solid;
+        border-color: red; */
+    }
+}
+
+/* pic position change */
+@media screen and (max-width:1024px) {
+    .container-right {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about-pic {
+    position: relative;
+    top: 0%;
+    left: 0%; }
+} 
+
+@media screen and (max-width:768px) {
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-right {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-left {
+        width: 100vw;
+        justify-content: center;
+    }
+}
+
+/*text margin change*/
+@media screen and (max-width:768px) {
+    .about-text {
+        max-width: 60vw;
+    }
+}
+
+/*pic position change*/
+@media screen and (max-width:768px) {
+    .container-right {
+        justify-content: center;
+    }
+    
+}
+
+/* pic position change */
+@media screen and (max-width:768px) {
+    .about-pic {
+        position: relative;
+    }
+}
+
+
+
+
+
+
 
 
 /*second section*/
@@ -136,12 +215,14 @@ hr {
 
 #breathein {
     color: #F4F6F4;
-    transition: all 4s ease;
+    width: 80vw;
+    line-height: 1.5em;
+    /* transition: all 4s ease; */
 }
 
-#breathein:hover {
+/* #breathein:hover {
     font-size: 3em;
-}
+} */
 
 .about-list {
     font-weight: 100;
