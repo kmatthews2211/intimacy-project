@@ -55,7 +55,7 @@
 
 .about-pic {
     position: relative;
-    top: 15%;
+    top: 12%;
     left: -30%;
 }
 
@@ -83,6 +83,7 @@
     }
 }
 
+/*keeping pic in centre*/
 @media screen and (max-width:1024px) {
     .about-pic {
     position: relative;
@@ -90,18 +91,21 @@
     left: 0%; }
 } 
 
+
 @media screen and (max-width:768px) {
     .about-container {
         flex-wrap: wrap;
     }
 }
 
+/*setting right container to full width*/
 @media screen and (max-width:768px) {
     .container-right {
         width: 100vw;
     }
 }
 
+/*setting left container to full width*/
 @media screen and (max-width:768px) {
     .container-left {
         width: 100vw;
@@ -113,6 +117,7 @@
 @media screen and (max-width:768px) {
     .about-text {
         max-width: 60vw;
+        margin: auto;
     }
 }
 
@@ -135,43 +140,133 @@
 
 
 
-
-
-
 /*second section*/
+.about-container-two {
+    display: flex;
+    flex: none;
+    justify-content: center;
+}
+
 .container-left-two {
     background-color: #929c94;
     height: 500px;
     width: 40vw;
+    display: flex;
+    flex: none;
+    /* border: solid;
+    border-color: red; */
 }
 
-.about-text-two {
-    text-align: left;
-    width: 400px;
-    color: #31515e;
-    font-weight:900;
-    margin-right: 200px;
+.about-pic-two {
+    position: relative;
+    top: 12%;
+    left: 150%;
 }
+
 
 .container-right-two {
     background-color: #F4F6F4;
     height: 500px;
     width: 60vw;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
+    /* border: solid;
+    border-color: blue; */
 }
 
-.about-pic-two {
-    z-index: 5;
-    position: absolute;
-    top: 85.5rem;
-    left: 27.5rem;
+
+.about-text-two {
+    text-align: left;
+    max-width: 30vw;
+    color: #31515e;
+    font-weight: 400;
+    margin-right: 10em;
+}
+
+
+
+/*divs change to half of viewport*/
+@media screen and (max-width:1024px) {
+    .container-left-two, .container-right-two {
+        width: 50vw;
+    }
+}
+
+/*text margin change*/
+@media screen and (max-width:1024px) {
+    .about-text-two {
+        margin-right: 6em;
+    }
+}
+
+/* pic position change */
+@media screen and (max-width:1024px) {
+    .container-left-two {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*keeping pic in centre*/
+@media screen and (max-width:1024px) {
+    .about-pic-two {
+    position: relative;
+    top: 0%;
+    left: 0%; }
+} 
+
+/*setting container to wrap reverse*/
+@media screen and (max-width:768px) {
+    .about-container-two {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+/*setting left container to full width*/
+@media screen and (max-width:768px) {
+    .container-left-two {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-right-two {
+        width: 100vw;
+        justify-content: center;
+    }
+}
+
+/*text margin change*/
+@media screen and (max-width:768px) {
+    .about-text-two {
+        max-width: 60vw;
+        margin: auto;
+    }
+}
+
+/*pic position change*/
+@media screen and (max-width:768px) {
+    .container-left-two {
+        justify-content: center;
+    }
     
 }
 
+/* pic position change */
+@media screen and (max-width:768px) {
+    .about-pic-two {
+        position: relative;
+    }
+}
 
 
+
+
+
+
+
+    
 .about-text-container {
     width: 65%;
     display: flex;
