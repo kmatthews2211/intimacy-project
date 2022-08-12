@@ -109,6 +109,7 @@
 @media screen and (max-width:768px) {
     .container-right {
         width: 100vw;
+        background-color: #F4F6F4;
     }
 }
 
@@ -140,6 +141,11 @@
 @media screen and (max-width:768px) {
     .about-pic {
         position: relative;
+        width: 70vw;
+        height: auto;
+        /* padding-top: 10em; */
+        /* padding-bottom: 10em; */
+        
     }
 }
 
@@ -238,6 +244,7 @@
 @media screen and (max-width:768px) {
     .container-left-two {
         width: 100vw;
+        background-color: #F4F6F4;
     }
 }
 
@@ -253,6 +260,7 @@
     .about-text-two {
         max-width: 60vw;
         margin: auto;
+        /* padding-top: 10em; */
     }
 }
 
@@ -268,6 +276,8 @@
 @media screen and (max-width:768px) {
     .about-pic-two {
         position: relative;
+        width: 70vw;
+        height: auto;
     }
 }
 
