@@ -24,7 +24,7 @@
 .about-container {
     display: flex;
     flex: none;
-    justify-content: row;
+    /* justify-content: row; */
 }
 
 .container-left {
@@ -151,7 +151,6 @@
 .about-container-two {
     display: flex;
     flex: none;
-    justify-content: center;
 }
 
 .container-left-two {
@@ -294,13 +293,6 @@ hr {
     border-color: #31515e;
     margin-bottom: 10px;
 }
-    
-.about-text-bottom {
-    color: #31515e;
-    font-weight: 400;
-    padding-top: 40px;
-    text-align: center;
-}
 
 .hero-image-stones  {
     background-image: url("../images/Sandstones\ CROP.png");
@@ -325,14 +317,22 @@ hr {
 #breathein:hover {
     font-size: 3em;
 }
+    
+.about-text-bottom {
+    color: #31515e;
+    font-weight: 400;
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+
 
 .about-list-container {
-    font-weight: 100;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    /* border: solid; */
 }
 
 @media screen and (max-width:1024px) {
@@ -346,13 +346,12 @@ hr {
 .about-list-ul {
     width: 400px;
     list-style-type: none;
-    padding: 60px 60px 0px 60px;
     font-size: 1.05rem;
 }
 
 
 .about-list-item {
-    margin-bottom: 60px;
+    margin-bottom: 60px; 
     text-align:center;
     line-height: 1.6;
     background: #c79a99;
