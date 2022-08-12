@@ -200,6 +200,9 @@ p {
     /* background-color: red; */
 }
 
+
+
+
 .what-is-container {
     /* background-color: pink; */
     display: flex;
@@ -218,7 +221,7 @@ p {
 }
 
 .what-is-text {
-    width: 35em; 
+    max-width: 30vw; 
     color:#31515e;
     padding: 2em;
 }

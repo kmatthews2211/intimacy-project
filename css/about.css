@@ -338,6 +338,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 100vw;
 }
 
 @media screen and (max-width:1024px) {
@@ -345,13 +346,17 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    max-width: 100vw;
+            }
 }
 
 .about-list-ul {
-    width: 400px;
+    max-width: 400px;
     list-style-type: none;
     font-size: 1.05rem;
+    padding: 0em 3em;
+    margin-bottom: 1em;
 }
 
 
@@ -374,4 +379,20 @@ hr {
     font-weight: 400;
     text-align: center;
     margin-top: 0;
+    max-width: 100vw;
+}
+
+@media screen and (max-width:768px) {
+    .about-text-bottom-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-text-bottom-2 > p {
+        max-width: 80vw;
+    }
 }
