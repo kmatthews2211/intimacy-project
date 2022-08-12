@@ -316,12 +316,12 @@ hr {
     color: #F4F6F4;
     width: 80vw;
     line-height: 1.5em;
-    transition: all 4s ease;
+    font-size:xx-large;
 }
 
-#breathein:hover {
+/* #breathein:hover {
     font-size: 3em;
-}
+} */
     
 .about-text-bottom {
     color: #31515e;
