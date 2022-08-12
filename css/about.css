@@ -164,9 +164,9 @@
 }
 
 .about-pic-two {
-    position: relative;
-    top: 12%;
-    left: 150%;
+    position: absolute;
+    top: 195%;
+    right: 53%;
 }
 
 
