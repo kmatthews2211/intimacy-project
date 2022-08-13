@@ -2,6 +2,13 @@
     text-align: center;
     color: white;
     max-width: 90vw;
+    /* background-color: pink; */
+}
+
+@media screen and (max-width: 480px) {
+    .hero-text-contact {
+        padding-top: 8em;
+    }
 }
 
 .hero-image-contact  {
@@ -68,10 +75,20 @@ label {
     cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+    .submit-button {
+        margin-bottom: 8em;
+    }
+}
 
 .submit-button:hover {
     text-decoration: underline;
 }
+
+.fa-paper-plane {
+    color: #31515e;
+}
+
 
 input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label {
     top: -35px;
