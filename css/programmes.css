@@ -45,11 +45,11 @@ body {
     max-width: 90vw;
 }
 
-/* @media screen and (max-width:480px) {
-    .hero-text-programmes h2 {
-    font-size: 8vw;
+@media screen and (max-width:480px) {
+    .hero-text-programmes {
+    font-size: 12vw;
 }
-} */
+}
 
 .para1-container {
     display: flex;
