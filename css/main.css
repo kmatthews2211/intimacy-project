@@ -247,6 +247,12 @@ p {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .what-is-text {
+        max-width: 90vw;
+    }
+}
+
 
 .pink-button {
     background-color: #c79a99;
@@ -261,6 +267,18 @@ p {
     font-family: 'Manjari', sans-serif;
 }
 
+
+@media screen and (max-width: 480px) {
+    .pink-button a {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pink-button {
+        padding: 0.5em 1em;
+    }
+}
 .pink-button:hover {
     cursor: pointer;
     text-decoration: underline;
