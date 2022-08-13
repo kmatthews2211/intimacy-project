@@ -13,11 +13,23 @@ body {
     background-image: url("../images/group-transparent.png");
     background-size: cover;
     height: 500px;
-    width: 100%;
+    width: 100vw;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.hero-text-programmes-2 {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .hero-text-programmes-2 {
+    font-size: 30pt;
+}
 }
 
 .top-container {
@@ -29,10 +41,19 @@ body {
 
 .para1-text p {
     margin: auto;
-    width: 800px;
+    max-width: 60em;
     color:#31515e;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+    .wellness-img {
+        width: 80vw;
+        height: auto;
+}
 }
 
 /*RETREATS*/
@@ -40,11 +61,12 @@ body {
     background-image: url("../images/SandStones.png");
     background-size: cover;
     height: 500px;
-    width: 100%;
+    width: 100vw;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .retreat-container {
@@ -52,6 +74,19 @@ body {
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.retreat-img {
+    height: 362px;
+    width: auto;
+}
+
+@media screen and (max-width:768px) {
+    .retreat-img {
+        width: 100vw;
+        height: auto;
+    }
 }
 
 .retreat-card {
@@ -59,6 +94,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 1.5em;
 }
 
 /*PRACTICE*/
@@ -111,7 +147,7 @@ body {
 
 
 .offer-container {
-    width: 100%;
+    max-width: 100vw;
     background-color: #929c94;
     margin-top: 2em;
 }
@@ -119,7 +155,7 @@ body {
 .offer-text {
     /* background-color:pink; */
     color:#F4F6F4;
-    width: 75vw;
+    max-width: 40vw;
     text-align: center;
     margin: auto;
     padding-top: 20px;
@@ -129,19 +165,16 @@ body {
 
 .gallery-container {
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1024px) {
     .gallery-container {
         flex-wrap: wrap;
     }
-}
-
-.gallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
 }
 
 .gallery-item {

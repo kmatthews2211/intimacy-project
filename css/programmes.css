@@ -42,13 +42,14 @@ body {
 .hero-text-programmes {
     text-align: center;
     color: white;
+    max-width: 90vw;
 }
 
-@media screen and (max-width:768px) {
-    .hero-text-programmes {
-    font-size: 30pt;
+/* @media screen and (max-width:480px) {
+    .hero-text-programmes h2 {
+    font-size: 8vw;
 }
-}
+} */
 
 .para1-container {
     display: flex;

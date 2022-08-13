@@ -207,7 +207,9 @@ p {
     /* background-color: pink; */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     justify-content: space-between;
+    align-items: center;
     padding: 4rem;
 }
 
@@ -228,15 +230,20 @@ p {
 
 .mountains-image {
     padding: 0.25em;
-}
-.responsive {
     max-width: 100%;
     height: auto;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .what-is-text {
+        padding-left: 0.5em;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .what-is-text {
-        width: 25em;
+        max-width: 70vw;
     }
 }
 
@@ -327,10 +334,21 @@ p {
     text-align: center;
     margin-bottom: 50px;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .fa-quote-left, .fa-quote-right {
     color: #929c94;
+}
+
+@media screen and (max-width: 768px) {
+    .breathe-quote {
+        width: 80vw;
+        text-align: center;
+    }
 }
 
 #Krishnamacharya {
@@ -345,7 +363,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .anna-sunset {
-        width: 75vw;
+        width: 80vw;
     }
 }
 
