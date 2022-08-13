@@ -327,11 +327,12 @@ hr {
     width: 80vw;
     line-height: 1.5em;
     font-size:xx-large;
+    transition: all 4s ease;
 }
 
-/* #breathein:hover {
+#breathein:hover {
     font-size: 3em;
-} */
+}
     
 .about-text-bottom {
     color: #31515e;

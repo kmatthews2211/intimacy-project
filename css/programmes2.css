@@ -89,6 +89,10 @@ body {
     }
 }
 
+.retreat-text {
+    color:#31515e;
+}
+
 .retreat-card {
     display: flex;
     flex-direction: column;
@@ -162,6 +166,12 @@ body {
     
 }
 
+
+@media screen and (max-width: 480px) {
+    .offer-text {
+        max-width: 80vw;
+    }
+}
 
 .gallery-container {
     margin-top: 50px;

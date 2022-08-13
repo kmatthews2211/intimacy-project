@@ -142,21 +142,6 @@ body {
 }
    
 
-.offer-container {
-    max-width: 100vw;
-    background-color: #F4F6F4;
-}
-
-.offer-text {
-
-    color: #31515e;
-    max-width: 40vw;
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-    
-}
-
 
 .gallery-container {
     display: flex;
