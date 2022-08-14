@@ -3,6 +3,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <title>40 day immersion</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/programmes.css">
         <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Manjari:wght@100;400&display=swap" rel="stylesheet">
@@ -14,34 +15,44 @@
 
             <!--Navigation Bar-->
         
-            <nav class="navbar-container">
-                <ul class="navbar-menu">
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./about.html">About Us</a>
-                    </li>
-                    <li>                        
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">What We Offer</button>
-                            </button>
-                            <div id="myDropdown" class="dropdown-content">
-                                <a href="./mentorship.html">1:1 Mentorship</a>
-                                <a href="./immersion.html">40 Day Immersion</a>
-                                <a href="./wellness-in-the-workplace.html">Wellness in the Workplace</a>
-                                <a href="./retreats.html">Retreats and Live Events</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="./practice.html">Practice Videos</a>
-                    </li>
-                    <li>
-                        <a href="./getintouch.html">Get In Touch</a>
-                    </li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg fixed-top bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">
+                    <img src="./images/black transparent logo.png" width="40">
+                  </a>
+                  <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                      </li>
+                      <li id="navbarNavDropdown" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          What We Offer</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./mentorship.html">1:1 Mentorship</a></li>
+                          <li><a class="dropdown-item" href="./immersion.html">40 Day Immersion</a></li>
+                          <li><a class="dropdown-item" href="./wellness-in-the-workplace.html">Wellness in the Workplace</a></li>
+                          <li><a class="dropdown-item" href="./retreats.html">Retreats and Live Events</a></li>
+                          <li><a class="dropdown-item" href="./numerology.html">Numerology Readings</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./practice.html">Practice Videos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./getintouch.html">Get In Touch</a>
+                      </li> 
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
             
             <div class="hero-image-immersion">
                 <div >
@@ -200,6 +211,9 @@
             </div>
 
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
         <script src="./app.js"></script>
         <noscript>You need to enable JavaScript to view the full site.</noscript>
     </body>

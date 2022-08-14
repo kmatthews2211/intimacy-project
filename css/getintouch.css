@@ -98,6 +98,7 @@ input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label
 .row {
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
 }
 
