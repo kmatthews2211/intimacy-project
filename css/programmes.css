@@ -45,6 +45,7 @@ body {
     text-align: center;
     color: white;
     max-width: 90vw;
+    margin-top: 2em;
 }
 
 @media screen and (max-width:480px) {
@@ -146,12 +147,6 @@ body {
    
 
 
-.gallery-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-}
 
 .gallery-item {
     padding: 20px;

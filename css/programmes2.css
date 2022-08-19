@@ -25,6 +25,7 @@ body {
 .hero-text-programmes-2 {
     text-align: center;
     color: white;
+    margin-top: 2em;
 }
 
 @media screen and (max-width:768px) {
@@ -35,8 +36,8 @@ body {
 
 .top-container {
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     background-color: #F4F6F4;
 }
 
@@ -77,6 +78,7 @@ body {
     justify-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-top: 2em;
 }
 
 .retreat-img {
@@ -93,6 +95,7 @@ body {
 
 .retreat-text {
     color:#31515e;
+    padding-top: 2em;
 }
 
 .retreat-card {
@@ -158,30 +161,7 @@ body {
     margin-top: 2em;
 }
 
-.offer-text {
-    /* background-color:pink; */
-    color:#F4F6F4;
-    max-width: 40vw;
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-    
-}
 
-
-@media screen and (max-width: 480px) {
-    .offer-text {
-        max-width: 80vw;
-    }
-}
-
-.gallery-container {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-}
 
 @media screen and (max-width: 1024px) {
     .gallery-container {
