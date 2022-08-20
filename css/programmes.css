@@ -44,6 +44,19 @@ body {
     margin-top: 60px;
 }
 
+/*NUMEROLOGY*/
+.hero-image-numerology {
+    background-image: url("../images/seapose-hero.png");
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
 
 
 
@@ -52,6 +65,10 @@ body {
     color: white;
     max-width: 90vw;
     margin-top: 2em;
+}
+
+#numerology {
+    color: white;
 }
 
 @media screen and (max-width:480px) {
@@ -86,6 +103,10 @@ body {
     color:#31515e;
     justify-content: center;
     margin: 2em 0em;
+}
+
+.para1-text h3 {
+    padding-bottom: 1em;
 }
 
 @media screen and (max-width:1024px) {
@@ -127,6 +148,10 @@ body {
     margin: 2em 0em;
 }
 
+.para2-text h3 {
+    padding-bottom: 1em;
+}
+
 @media screen and (max-width:768px) {
     .para2-text {
     max-width: 80vw;
@@ -140,7 +165,7 @@ body {
 }
 
 .image-2 {
-    margin: 9em 0em 4em;
+    margin: 5em 0em 4em;
 }
 
 @media screen and (max-width:768px) {
