@@ -23,6 +23,13 @@ body {
     margin-top: 60px;
 }
 
+@media screen and (max-width:480px) {
+    .hero-image-mentorship h2 {
+    font-size: 4vw;
+}
+}
+
+
 /*IMMERSION*/
 .hero-image-immersion {
     background-image: url("../images/treepose-transparent-crop.png");
@@ -40,7 +47,6 @@ body {
 
 
 
-
 .hero-text-programmes {
     text-align: center;
     color: white;
@@ -51,6 +57,18 @@ body {
 @media screen and (max-width:480px) {
     .hero-text-programmes {
     font-size: 12vw;
+}
+}
+
+@media screen and (max-width:480px) {
+    .hero-image-immersion h2 {
+    font-size: 4vw;
+}
+}
+
+@media screen and (max-width:768px) {
+    .hero-image-immersion h2 {
+    color: white;
 }
 }
 
@@ -68,7 +86,12 @@ body {
     color:#31515e;
     justify-content: center;
     margin: 2em 0em;
-    /* background-color: pink; */
+}
+
+@media screen and (max-width:1024px) {
+    .para1-text h3 {
+    padding: 1em 0em;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -85,6 +108,7 @@ body {
     .image-1 {
     width: 100vw;
     height: auto;
+    margin: 1em 0em;
 }
 }
 
@@ -109,6 +133,12 @@ body {
 }
 }
 
+@media screen and (max-width:1024px) {
+    .para2-text h3 {
+    padding: 1em 0em;
+}
+}
+
 .image-2 {
     margin: 9em 0em 4em;
 }
@@ -117,14 +147,15 @@ body {
     .image-2 {
     width: 100vw;
     height: auto;
+    margin: 3em 0em;
 }
 }
 
 .expect-container {
     width: 100%;
     background-color: #c79a99;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 5em;
+    padding-bottom: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,9 +173,35 @@ body {
     max-width: 60vw;
     line-height: 3em;
     list-style-type: circle;
-    padding-bottom: 3em;
+    padding-bottom: 0;
 }
-   
+
+@media screen and (max-width:1024px) {
+    .expect-title {
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .expect-list {
+        max-width: 80vw;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .expect-list {
+        line-height: 2.25em;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .expect-list li {
+        padding-bottom: 30px;
+    }
+}
+
 
 
 
