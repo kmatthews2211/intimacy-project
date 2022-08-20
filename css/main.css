@@ -432,6 +432,12 @@ p {
     /* background-color: #c79a99; */
 }
 
+@media screen and (max-width:480px) {
+    .quote {
+        width: 380px;
+    }
+}
+
 
 
 .title {
