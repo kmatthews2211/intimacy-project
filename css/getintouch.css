@@ -2,7 +2,7 @@
     background-image: url("../images/SandStones.png");
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -18,21 +18,6 @@
     text-align: center;
 
 }
-
-
-
-/* @media screen and (max-width: 1024px) {
-    .hero-text-contact {
-        margin-top: 8em;
-    }
-} */
-
-/* @media screen and (min-width: 481px) {
-    .hero-text-contact {
-        margin-top: 9em;
-    }
-} */
-
 
 
 form {
