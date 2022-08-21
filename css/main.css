@@ -173,6 +173,7 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 2rem 1rem 2rem;
     }
 }
 
@@ -181,13 +182,6 @@ p {
     color:#31515e;
     padding: 2em;
 }
-
-.mountains-image {
-    padding: 0.25em;
-    max-width: 100%;
-    height: auto;
-}
-
 
 @media screen and (max-width: 1024px) {
     .what-is-text {
@@ -204,6 +198,19 @@ p {
 @media screen and (max-width: 480px) {
     .what-is-text {
         max-width: 90vw;
+    }
+}
+
+.mountains-image {
+    padding: 0.25em;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .mountains-image {
+        width: 100vw;
+        padding: 0;
     }
 }
 
@@ -421,8 +428,6 @@ p {
     }
 } 
 
-
-
 .title {
     font-weight: bold;
 }
@@ -452,7 +457,6 @@ p {
     outline: #31515e;
     height: 250px;
 }
-
 
 .carousel-control-next {
     background-color: #F4F6F4;
@@ -488,6 +492,8 @@ p {
         display: none;
     }
 }
+
+
 
 .to-top-button {
     background-color:#F4F6F4;
