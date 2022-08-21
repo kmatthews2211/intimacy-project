@@ -89,6 +89,7 @@ body {
 }
 }
 
+/*SECTION 1*/
 .para1-container {
     display: flex;
     flex-direction: row;
@@ -133,6 +134,8 @@ body {
 }
 }
 
+/*SECTION 2*/
+
 .para2-container {
     display: flex;
     flex-direction: row-reverse;
@@ -175,6 +178,8 @@ body {
     margin: 3em 0em;
 }
 }
+
+/*WHAT TO EXPECT*/
 
 .expect-container {
     width: 100%;
@@ -228,7 +233,7 @@ body {
 }
 
 
-
+/*OFFER GALLERY*/
 
 .gallery-item {
     padding: 20px;
@@ -240,7 +245,6 @@ body {
 }
 
 .description {
-    /* background-color: pink; */
     text-align: center;
 }
 
