@@ -22,7 +22,6 @@
 
 form {
     width: 55vw;
-    /* background-color: pink; */
 }
 
 @media screen and (max-width: 768px) {
@@ -34,7 +33,6 @@ form {
 .input-group {
     margin-bottom: 30px;
     position: relative;
-    /* background-color: red; */
 }
 
 input, textarea {

@@ -13,20 +13,18 @@ body {
     font-family: 'Manjari', sans-serif;
 }
 
-/*NEW NAVBAR*/
+
+/*NAVBAR*/
 
 .navbar {
     background-color: #F4F6F4;
     max-width: 100%;
     align-items: center;
-    /* padding: 0; */
     top: 0;
     left: 0;
 }
  
 .container-fluid {
-    /* max-width: 100vw; */
-    /* margin: 0; */
     align-items: center;
 }
 
@@ -83,12 +81,9 @@ body {
     background-image: url("../images/Transparent\ image.png");
     background-size: cover;
     height: 100vh;
-    /* max-width: 100vw; */
     background-position: center;
     position: relative;
 }
-
-
 
 .hero-text {
     text-align: center;
@@ -99,17 +94,29 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 480px) {
+    .hero-text h1 {
+        margin-top: 3em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-text h2 {
+        margin-top: 6em;
+    }
+}
+
+
+/*TEXT STYLES*/
 
 h1 {
     font-weight: 100;
     font-size: 4em;
     font-family: 'Julius Sans One', sans-serif;
-    /* color: rgba(255, 255, 255, 0.8); */
     color: #F4F6F4;
 }
 
 h2 {
-    /* font-style: italic; */
     font-weight: 100;
     font-size: 3vh;
 }
@@ -126,14 +133,12 @@ h4 {
     font-size: 2.25em;
     color: white; 
     margin-bottom: 20px;
-    /* background-color: blue; */
 }
 
 h5 {
     font-weight: 100;
     font-size: 1.5em;
     color: white; 
-    /* background-color: blue; */
 }
 
 h6 {
@@ -151,14 +156,12 @@ p {
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.5;
-    /* background-color: red; */
 }
 
 
-
+/*TOP SECTION WHAT IS T.I.P.?*/
 
 .what-is-container {
-    /* background-color: pink; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -214,48 +217,7 @@ p {
     }
 }
 
-
-.pink-button {
-    background-color: #c79a99;
-    border: none;
-    border-radius: 0.4rem;
-    color: white;
-    padding: 1em 2em;
-    margin-top: 1em;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Manjari', sans-serif;
-}
-
-
-@media screen and (max-width: 480px) {
-    .pink-button a {
-        font-size: 3.5vw;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .pink-button {
-        padding: 0.5em 1em;
-    }
-}
-.pink-button:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.pink-button a:link {
-    color: white;
-    text-decoration: none;
-}
-
-.pink-button a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-
+/*WHAT WE OFFER*/
 
 .offer-container {
     max-width: 100vw;
@@ -272,7 +234,6 @@ p {
     text-align: center;
     margin: auto;
     padding-top: 4em;
-    /* background-color: red; */
 }
 
 @media screen and (max-width: 480px) {
@@ -282,7 +243,6 @@ p {
 }
 
 .gallery-container {
-    /* background-color: pink; */
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -309,7 +269,6 @@ p {
 }
 
 .description {
-    /* background-color: pink; */
     text-align: center;
     padding-top: 20px;
 }
@@ -340,7 +299,6 @@ p {
 }
 
 #Krishnamacharya {
-    /* background-color: pink; */
     padding-bottom: 20px;
 }
 
@@ -355,13 +313,54 @@ p {
     }
 }
 
-
+/*BUTTONS*/
 
 .button {
     /* background-color: pink; */
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+}
+
+.pink-button {
+    background-color: #c79a99;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 1em 2em;
+    margin-top: 1em;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Manjari', sans-serif;
+}
+
+
+@media screen and (max-width: 480px) {
+    .pink-button a {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pink-button {
+        padding: 0.5em 1em;
+    }
+}
+
+.pink-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pink-button a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.pink-button a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 .white-button {
@@ -399,11 +398,16 @@ p {
 .carousel {
     display: flex;
     justify-content: center;
+    max-width: 600px;
+    align-items: center;
+    margin: auto;
+    position: relative;
 }
 
 .carousel-inner {
     height: 60vh;
     max-width: 400px;
+    position: relative;
 }
 
 .carousel-item {
@@ -448,21 +452,24 @@ p {
     }
 } 
 
+/*CAROUSEL BUTTONS*/
+
 .carousel-control-prev {
     background-color: #F4F6F4;
     border: none;
     cursor: pointer;
-    left: 30%;
     width: 60px;
     outline: #31515e;
     height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .carousel-control-next {
     background-color: #F4F6F4;
     border: none;
     cursor: pointer;
-    right: 30%;
     width: 60px;
     height: 250px;
 }
@@ -475,17 +482,6 @@ p {
     background-color: #d4d7d4;
 }
 
-@media screen and (max-width:1250px) {
-    .carousel-control-prev {
-        left: 20%;
-    }
-}
-
-@media screen and (max-width:1250px) {
-    .carousel-control-next {
-        right: 20%;
-    }
-}
 
 @media screen and (max-width:768px) {
     .carousel button {
@@ -494,6 +490,7 @@ p {
 }
 
 
+/*SCROLL TO TOP BUTTON*/
 
 .to-top-button {
     background-color:#F4F6F4;
@@ -550,7 +547,7 @@ p {
     }
 }
 
-
+/*NAV MENU FOOTER*/
 .navigation-list-end {
     list-style-type: none;
     display: flex;
@@ -600,7 +597,7 @@ p {
 }
 
 
-
+/*SOCIALS, LINKS, LOGO*/
 
 .link-end:hover {
     cursor: pointer;
