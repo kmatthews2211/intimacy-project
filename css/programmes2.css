@@ -98,6 +98,13 @@ body {
     padding-top: 2em;
 }
 
+@media screen and (max-width:480px) {
+    .retreat-text {
+        width: 90vw;
+        height: auto;
+    }
+}
+
 .retreat-card {
     display: flex;
     flex-direction: column;

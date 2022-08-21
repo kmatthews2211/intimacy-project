@@ -387,30 +387,7 @@ p {
     border: none;
 }
 
-/* 
-.testimonial-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 2em;
-    max-width: 100vw;
-}
-
-@media screen and (max-width: 1024px) {
-    .testimonial-container {
-        flex-wrap: wrap;
-    }
-}
-
-
-
-.testimonial-item {
-    width: 350px;
-    padding: 1.5em;
-    color:#31515e;
-
-} */
+/* TESTIMONIAL CAROUSEL */
 
 .carousel {
     display: flex;
@@ -418,8 +395,6 @@ p {
 }
 
 .carousel-inner {
-    /* border: solid;
-    border-color: red; */
     height: 60vh;
     max-width: 400px;
 }
@@ -433,10 +408,18 @@ p {
 }
 
 @media screen and (max-width:480px) {
-    .quote {
-        width: 380px;
+    .carousel-inner {
+        width: 100vw;
+        height: 80vh;
     }
-}
+} 
+
+@media screen and (max-width:480px) {
+    .carousel-item {
+        width: 100vw;
+        height: 80vh;
+    }
+} 
 
 
 
@@ -453,6 +436,12 @@ p {
     text-align: center;
     line-height: 2em;
 }
+
+@media screen and (max-width:480px) {
+    .quote {
+        width: 80vw;
+    }
+} 
 
 .carousel-control-prev {
     background-color: #F4F6F4;
