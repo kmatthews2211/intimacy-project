@@ -520,15 +520,15 @@ p {
 /*mailing list sign up*/
 
 #mc_embed_signup {
-    background:#31515e; 
+    background: #31515e;
     clear:left; 
     color: #F4F6F4; 
     font:14px 'Manjari', sans-serif; 
     max-width:450px; 
     margin-top: 40px;
-    border: 1px solid white;
-    
+    border: 1px solid white; 
 }
+
 
 #subscribe {
     font-weight: 100;

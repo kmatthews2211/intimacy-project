@@ -466,7 +466,7 @@ hr {
 @media screen and (max-width:768px) {
     .popup-content {
         width: 90vw;
-        height: 600px;
+        height: 500px;
         overflow: auto;
     }
  }
