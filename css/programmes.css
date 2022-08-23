@@ -195,15 +195,20 @@ body {
 .expect-title {
     width: 60vw;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .expect-list {
     color: #F4F6F4;
     font-size: large;
     max-width: 60vw;
-    line-height: 3em;
+    line-height: 2.25em;
     list-style-type: circle;
     padding-bottom: 0;
+}
+
+.expect-list li {
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width:1024px) {
@@ -216,24 +221,18 @@ body {
     .expect-list {
         max-width: 80vw;
         padding: 1em;
+        line-height: 2em;
     }
 }
 
-@media screen and (max-width:1024px) {
-    .expect-list {
-        line-height: 2.25em;
-        padding-bottom: 0;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .expect-list li {
-        padding-bottom: 30px;
-    }
-}
 
 .numbers-list {
     font-style: italic;
+}
+
+.numbers-list li {
+    line-height: 2em;
+    padding-bottom: 0em;
 }
 
 /*OFFER GALLERY*/
@@ -250,5 +249,7 @@ body {
 .description {
     text-align: center;
 }
+
+
 
 
