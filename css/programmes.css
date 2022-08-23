@@ -123,10 +123,11 @@ body {
 }
 
 .image-1 {
-    margin: 4em 0em;
+    margin: 2em 0em;
+    max-width: 100%;
 } 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
     .image-1 {
     width: 100vw;
     height: auto;
@@ -169,9 +170,10 @@ body {
 
 .image-2 {
     margin: 5em 0em 4em;
+    max-width: 100%;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
     .image-2 {
     width: 100vw;
     height: auto;
