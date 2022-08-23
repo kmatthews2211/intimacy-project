@@ -524,7 +524,7 @@ p {
     clear:left; 
     color: #F4F6F4; 
     font:14px 'Manjari', sans-serif; 
-    width:450px; 
+    max-width:450px; 
     margin-top: 40px;
     border: 1px solid white;
     
@@ -534,6 +534,12 @@ p {
     font-weight: 100;
 }
 
+@media screen and (max-width: 480px) {
+    #mc_embed_signup {
+        width: 340px;
+        margin-top: 10px;
+    }
+}
 
 
 .footer-container {
@@ -543,13 +549,8 @@ p {
     z-index: 0;
     margin-bottom: 0;
     position: relative;
+    bottom: 0;
    
-}
-
-@media screen and (max-width: 768px) {
-    .footer-container {
-        height: 75vh;
-    }
 }
 
 
@@ -562,6 +563,12 @@ p {
     padding-top: 10px;
     padding-right: 10px;
     margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .socials {
+        justify-content: center;
+    }
 }
 
 
