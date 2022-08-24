@@ -554,7 +554,8 @@ p {
     font:14px 'Manjari', sans-serif; 
     max-width:450px; 
     margin-top: 40px;
-    border: 1px solid white; 
+    border: 1px solid white;
+    /* padding: 15px; */
 }
 
 
