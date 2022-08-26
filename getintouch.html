@@ -68,25 +68,27 @@
                    
                     <div class="row">
                         <div class="input-group">
-                            <input type="text" id="name" required>
+                            <input type="text" name="name" id="name" required>
                             <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
                         </div>
     
                         <div class="input-group">
-                            <input type="email" id="email" required>
+                            <input type="email" name="email" id="email" required>
                             <label for="email"><i class="fa-solid fa-envelope"></i> Your Email</label>
                         </div>
                     </div>
                     
                     <div class="input-group">
-                        <input type="text" id="subject" required>
+                        <input type="text" name="_subject" id="subject" required>
                         <label for="subject"><i class="fa-solid fa-circle-question"></i> Message Subject</label>
                     </div>
 
                     <div class="input-group">
-                        <textarea id="message" rows="8" required></textarea>
+                        <textarea id="message" name="message" rows="8" required></textarea>
                         <label for="message"><i class="fa-solid fa-comment"></i> Your message</label>
                     </div>
+
+                    <input type="hidden" name="_next" value="https://kmatthews2211.github.io/intimacy-project/thankyou.html">
 
                     <button type="submit" class="submit-button">SUBMIT <span style="color: black;"></span><i class="fa-solid fa-paper-plane"></i></span></button>
                     
