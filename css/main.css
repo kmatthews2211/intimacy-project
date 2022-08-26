@@ -573,29 +573,6 @@ p {
 
 
 
-
-.socials {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.socials span {
-    padding-top: 10px;
-    padding-right: 10px;
-    margin: 0;
-}
-
-@media screen and (max-width: 480px) {
-    .socials {
-        justify-content: center;
-    }
-}
-
-
-
-
-
-
 /*NAV MENU FOOTER*/
 .navigation-list-end {
     list-style-type: none;
@@ -648,6 +625,23 @@ p {
 
 
 /*SOCIALS, LINKS, LOGO*/
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socials span {
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .socials {
+        justify-content: center;
+    }
+}
 
 .link-end:hover {
     cursor: pointer;

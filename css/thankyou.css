@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: #F4F6F4;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vw;
+    font-family: 'Manjari', sans-serif;
+}
+
+/*TEXT STYLES*/
+
+h1 {
+    font-weight: 100;
+    font-size: 4em;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #F4F6F4;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/*THANK YOU HERO*/
+.hero-image-thankyou  {
+    background-image: url("../images/anna-horse3.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .socials {
+        margin: 0;
+    }
+}
+
+.hero-text-thankyou {
+    color: white;
+    max-width: 90vw;
+    text-align: center;
+    margin-top: 8em;
+    margin-bottom: 3em;
+   
+
+}
+
+.hero-text-thankyou h2 {
+    font-size:medium;
+}
+
+
+.hero-text-thankyou h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text-thankyou h2 a:hover {
+    text-decoration: underline;
+    color:#c79a99;
+}
+
+
+
+/*NAVBAR*/
+
+.navbar {
+    max-width: 100%;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+ 
+.container-fluid {
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 1.1em;
+    font-family: 'Manjari', sans-serif;
+    color: #31515e;
+    align-items: center;
+    line-height: 2em;
+    padding-right: 20px;
+} 
+
+.nav-link {
+    color:#31515e;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-link:hover {
+    color: #31515e;
+    text-decoration: underline;
+    background-color: #d4d7d4;
+}
+
+
+.dropdown-menu {
+    background-color: #F4F6F4;
+    line-height: 2em;
+    font-size: 1em;
+    border: none;
+    max-width: 80vw;
+}
+
+
+.dropdown-item {
+    color: #31515e;
+}
+
+.dropdown-item:hover {
+    background-color: #d4d7d4;
+    text-decoration: underline;
+    color: #31515e;
+} 
+
+
+
+/*SOCIALS*/
+
+.socials {
+    margin: 2em 0 0 0;
+}
+
+.socials span {
+    padding: 0.5em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  .copyright {
+      color: white;
+      font-weight:100;
+      font-size: small;
+  }
+
+  i {
+    color: white;
+  }
+
+  i:hover {
+    cursor: pointer;
+    color: #929c94;
+  }
+
