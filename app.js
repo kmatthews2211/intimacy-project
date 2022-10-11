@@ -4,7 +4,9 @@ function topFunction() {
 
 
 
-
+$(document).ready(function(){
+    $("#exampleModal").modal('show');
+});
 
 
 
