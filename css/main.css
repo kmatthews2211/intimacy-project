@@ -156,9 +156,41 @@ p {
     }
 }
 
+/*SCROLLING BANNER*/
+.banner {
+    max-width: 100%;
+    height: 110px;
+    background-color: #31515e;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 0;
+    padding: 0.5em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+marquee {
+    color:#F4F6F4;
+    max-width: 100%;
+}
 
 
+.marquee a:link {
+    color: white;
+    text-decoration: underline;
+}
+.marquee a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
 
+.marquee a:visited {
+    color: #F4F6F4;
+    text-decoration: none;
+}
 
 /*TOP SECTION WHAT IS T.I.P.?*/
 
@@ -273,6 +305,8 @@ p {
     text-align: center;
     padding-top: 20px;
 }
+
+
 
 /*BREATHE SECTION*/
 
