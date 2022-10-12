@@ -745,3 +745,48 @@ marquee {
   }
 
   
+
+
+  /*MODAL POP UP*/
+  
+  .modal-dialog {
+    box-shadow: rgba(152, 206, 240, 0.35) 0px 5px 15px;
+  }
+  
+  .modal-title {
+    color:#31515e;
+  }
+
+  .modal-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-body {
+    text-align: center;
+    font-weight: bold;
+    color:#31515e;
+  }
+
+  .modal-footer {
+    justify-content: center;
+  }
+
+  .btn-primary {
+    background-color: #31515e;
+    border-color: #31515e;
+  }
+
+  .pop-link:link {
+    color:#F4F6F4;
+  }
+
+  .pop-link:hover {
+    text-decoration: underline;
+  }
+
+  .pop-link:visited {
+    color:#F4F6F4;
+  }
