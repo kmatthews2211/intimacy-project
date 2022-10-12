@@ -183,6 +183,12 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .hero-text-offerings {
+        top: 30%;
+    }
+}
+
 .online-container {
     display: flex;
     flex-direction: row;
