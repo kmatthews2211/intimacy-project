@@ -44,6 +44,20 @@ body {
     margin-top: 60px;
 }
 
+/*MOROCCO IMMERSION*/
+.hero-image-m-immersion {
+    background-image: url("../images/morocco-fade.png");
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
 
 /*NUMEROLOGY*/
 .hero-image-numerology {
@@ -211,8 +225,9 @@ body {
 }
 
 .expect-list li {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
+
 
 @media screen and (max-width:1024px) {
     .expect-title {
@@ -227,6 +242,13 @@ body {
         line-height: 2em;
     }
 }
+
+
+
+
+
+
+
 
 
 .numbers-list {
