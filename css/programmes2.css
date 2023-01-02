@@ -137,6 +137,13 @@ body {
 }
 
 .practice-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    width: 600px;
     max-width: 100%;
 }
 
@@ -158,6 +165,37 @@ body {
         flex-wrap: wrap;
     }
 }
+
+
+.top-text {
+    font-weight: 400;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.video-text {
+    text-align: center;
+    font-size: small;
+}
+
+.video-card {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.row2 {
+    padding-bottom: 3em;
+}
+
+
+
 
 
 
@@ -185,7 +223,13 @@ body {
 
 @media screen and (max-width: 768px) {
     .hero-text-offerings {
-        top: 30%;
+        top: 32%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .hero-text-offerings {
+        font-size: small;
     }
 }
 
@@ -197,8 +241,6 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
-
 
 .online-card {
     padding-left: 1.5em;
@@ -229,7 +271,6 @@ body {
 
 /*WHAT WE OFFER*/
 .hero-image-offer {
-    /* background-image: url("../images/Sandstones\ CROP.png"); */
     background-color:#929c94;
     background-size: cover;
     height: 310px;
@@ -241,8 +282,6 @@ body {
 }
 
 
-
-
 .offer-container {
     max-width: 100vw;
     background-color: #929c94;
@@ -251,18 +290,19 @@ body {
 
 
 
-@media screen and (max-width: 1024px) {
-    .gallery-container {
-        flex-wrap: wrap;
-    }
-}
-
 .gallery-container {
     padding-bottom: 0.5em;
 }
 
+@media screen and (max-width: 768px) {
+    .gallery-pic {
+        height: 230px;
+    }
+}
+
 .gallery-item {
     padding: 20px;
+    max-width: 100vw;
 }
 
 .link:hover {
@@ -289,7 +329,7 @@ body {
     text-align: center;
 }
 
-.offer-text-container {
+.offer-text-container-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -300,43 +340,7 @@ body {
 }
 
 
-/*PRACTICE VIDEOS*/
 
-.practice-text-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-    padding-top: 4em;
-    padding-bottom: 2em;
-    width: 600px;
-}
 
-.top-text {
-    font-weight: 400;
-    text-align: center;
-}
-
-.video-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.video-text {
-    text-align: center;
-    font-size: small;
-}
-
-.video-card {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-
-.row2 {
-    padding-bottom: 3em;
-}
 
 
