@@ -277,4 +277,50 @@ body {
 
 
 
+/*DROP DOWN MOROCCO LEARN LIST*/
 
+.collapse-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    background-color: #F4F6F4;
+}
+
+.learn-list {
+    padding-top: 3em;
+    list-style-type: circle;
+    background-color: #F4F6F4;
+    color:#31515e;
+    max-width: 70vw;
+    line-height: 2.25em;
+    border: none;
+}
+
+.learn-list li {
+    padding-bottom: 15px;
+}
+
+.collapse-button {
+    margin-top: 2em;
+    background-color: #F4F6F4;
+    color:#31515e;
+    border-color: #dce2e4;
+    border-width: 4px;
+    padding: 1em;
+    border-radius: 0.4rem;
+    width: 100vw;
+}
+
+.collapse-button:hover {
+    background-color:#F4F6F4;
+}
+
+.collapse-button:visited {
+    background-color:#F4F6F4;
+}
+
+.fa-solid {
+    color:#31515e;
+}
