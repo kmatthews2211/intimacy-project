@@ -270,16 +270,40 @@ body {
 
 
 /*WHAT WE OFFER*/
+
 .hero-image-offer {
-    background-color:#929c94;
+    background-image: url("../images/david-walking-pair-transp2.png");
     background-size: cover;
-    height: 310px;
+    height: 400px;
     width: 100%;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.hero-text-offer {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: smaller;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-text-offer {
+        top: 32%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .hero-text-offer {
+        font-size: small;
+    }
+}
+
 
 
 .offer-container {

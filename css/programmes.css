@@ -324,3 +324,9 @@ body {
 .fa-solid {
     color:#31515e;
 }
+
+@media screen and (max-width:480px) {
+    #join-button {
+    
+}
+}
