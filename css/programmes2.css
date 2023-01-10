@@ -251,6 +251,7 @@ body {
     .online-card {
         padding-top:20px;
         padding-bottom:20px;
+        border-color: red;
     }
 }
 
@@ -267,7 +268,9 @@ body {
     opacity: 0.6;
 }
 
-
+.weekday {
+    text-align: center;
+}
 
 /*WHAT WE OFFER*/
 
