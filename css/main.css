@@ -451,8 +451,12 @@ marquee {
     max-width: 400px;
     color: #31515e;
     text-align: center;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
     /* background-color: #c79a99; */
 }
+
+
 
 @media screen and (max-width:480px) {
     .carousel-inner {
