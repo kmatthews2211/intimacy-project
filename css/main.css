@@ -266,7 +266,8 @@ marquee {
     width: 70vw;
     text-align: center;
     margin: auto;
-    padding-top: 4em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 @media screen and (max-width: 480px) {
